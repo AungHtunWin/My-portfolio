@@ -30,3 +30,19 @@
      background-color:#124e96;
      
 }
+/* Navigation bar toggler icon modification */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+     outline: 0;
+}
+.navbar-toggler.collapsed .close-icon {
+     display: none;
+}
+.fas{
+     color:#124e96;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+     display: inline;
+}
+/* End of icon modification */
