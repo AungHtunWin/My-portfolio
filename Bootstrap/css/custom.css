@@ -17,7 +17,7 @@
      font-family: jose;
      font-size: 50px;
 }
-.hero .container p{
+.hero .container p,.hero_footer .container-fluid p{
      font-family:monster;
      font-size: 16px;
 }
@@ -60,7 +60,36 @@
      border-radius: 50%;
 }
 /* herofooter container */
+.hero_footer .container-fluid h1{
+     font-family: jose;
+     font-size: 30px;
+}
+.hero_footer .container-fluid p{
+     width:80%;
+     line-height: 35px;
+}
+
 .hero_footer .container-fluid {
      background-color: #0e153a;
      height: 500px;
+     color: aliceblue;
+}
+@media(max-width:600px){
+     .hero .container h1{
+          font-family: jose;
+          font-size: 33px;
+     }
+     .navbar-brand{
+          font-family: jose;
+          font-size: 20px;
+     }
+     .hero_footer .container-fluid h1{
+          font-family: jose;
+          font-size: 25px;
+     }
+     .hero .container p,.hero_footer .container-fluid p{
+          font-family:monster;
+          font-size: 14px;
+     }
+
 }
