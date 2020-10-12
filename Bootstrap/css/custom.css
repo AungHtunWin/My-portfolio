@@ -13,11 +13,19 @@
      font-family: jose;
      font-size: 25px;
 }
-.hero .container h1{
+.hero .container h1,{
      font-family: jose;
      font-size: 50px;
 }
-.hero .container p,.hero_footer .container-fluid p{
+.hero-skill .container div h1{
+     font-family: jose;
+     font-size: 25px;
+}
+.hero .container p,
+.hero_footer .container-fluid p,
+.hero-skill .container div p,
+.hero-skill .container div ul
+{
      font-family:monster;
      font-size: 16px;
 }
@@ -46,8 +54,8 @@
 .navbar-toggler.collapsed .close-icon {
      display: none;
 }
-.fas{
-     color:#124e96;
+.fas,.far{
+     color:#0e153a;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
@@ -74,6 +82,19 @@
      height: 500px;
      color: aliceblue;
 }
+/* Hero skill container */
+.hero-skill .container{
+     background-color:white;
+     margin-top: -150px;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.coloringword{
+     color:#482ff7;
+}
+.list-group{
+     list-style: none;
+     text-decoration: none;
+}
 @media(max-width:600px){
      .hero .container h1{
           font-family: jose;
@@ -90,6 +111,15 @@
      .hero .container p,.hero_footer .container-fluid p{
           font-family:monster;
           font-size: 14px;
+     }
+     .hero_footer .container-fluid p{
+          width:85%;
+          line-height: 30px;
+     }
+     .hero-skill .container{
+          background-color: aliceblue;
+          margin-top: -20px;
+          border-radius:10px;
      }
 
 }
