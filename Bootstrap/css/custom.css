@@ -13,10 +13,16 @@
      font-family: jose;
      font-size: 25px;
 }
-.hero .container h1{
+.hero .container h1,h1{
      font-family: jose;
      font-size: 50px;
 }
+/* recent projects heading font */
+h1{
+     font-family: jose;
+     font-size: 35px;
+}
+/*  */
 .hero-skill .container div h1{
      font-family: jose;
      font-size: 25px;
@@ -24,7 +30,8 @@
 .hero .container p,
 .hero_footer .container-fluid p,
 .hero-skill .container div p,
-.hero-skill .container div ul
+.hero-skill .container div ul,
+p
 {
      font-family:monster;
      font-size: 16px;
@@ -55,7 +62,7 @@
      display: none;
 }
 .fas,.far{
-     color:#0e153a;
+     color:#482ff7;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
@@ -78,7 +85,7 @@
 }
 
 .hero_footer .container-fluid {
-     background-color: #0e153a;
+     background-color: #482ff7;
      height: 500px;
      color: aliceblue;
 }
@@ -87,6 +94,7 @@
      background-color:white;
      margin-top: -150px;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     width: 90%;
 }
 .coloringword{
      color:#482ff7;
@@ -95,6 +103,12 @@
      list-style: none;
      text-decoration: none;
 }
+/* end of hero skill container */
+/* Start of recent project CSS */
+.container .row div .img-fluid{
+     border-radius: 10px;
+}
+/* End of recent project CSS */
 @media(max-width:600px){
      .hero .container h1{
           font-family: jose;
@@ -118,7 +132,7 @@
      }
      .hero-skill .container{
           background-color: aliceblue;
-          margin-top: -20px;
+          margin-top: -50px;
           border-radius:10px;
      }
 
