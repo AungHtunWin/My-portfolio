@@ -59,3 +59,8 @@
      width: 180px;
      border-radius: 50%;
 }
+/* herofooter container */
+.hero_footer .container-fluid {
+     background-color: #0e153a;
+     height: 500px;
+}
