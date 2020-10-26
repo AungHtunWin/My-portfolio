@@ -1,10 +1,10 @@
 @font-face{
      font-family: jose;
-     src:url(../../fonts/JosefinSans-Medium.ttf)
+     src:url(../../fonts/TitilliumWeb-Bold.ttf)
 }
 @font-face{
      font-family: monster;
-     src:url(../../fonts/Montserrat-Medium.ttf)
+     src:url(../../fonts/Montserrat-Regular.ttf)
 }
 .navbar{
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -26,31 +26,43 @@ h1{
 .hero-skill .container div h1{
      font-family: jose;
      font-size: 25px;
+     color: black;
 }
-.hero .container p,
-.hero_footer .container-fluid p,
+.typewrite{
+     color:black  ;
+}
+.hero .container p
+{    
+     font-family:monster;
+     font-size: 20px;
+}
+.hero_footer .container-fluid p
+{    
+     font-family:monster;
+     font-size: 16px;
+}
 .hero-skill .container div p,
 .hero-skill .container div ul,
 p
-{
+{    
      font-family:monster;
      font-size: 16px;
 }
 .navbar .navbar-nav .nav-item .nav-link{
-     color:#0a0a0a;
      font-family: monster;
+     font-weight: bold;
      font-size: 14px;
 }
 .navbar .navbar-nav .nav-item .hover_bg{
-     border:2px solid #124e96 ;
+     border:2px solid #7510F7 ;
      border-radius: 20px;
-     color:#124e96 ;
+     color:#7510F7 ;
 }
 .navbar .navbar-nav .nav-item .hover_bg:hover{
      color: white;
-     border:2px solid #124e96 ;
+     border:2px solid #7510F7 ;
      border-radius: 20px;
-     background-color:#124e96;
+     background-color:#7510F7;
      
 }
 /* Navigation bar toggler icon modification */
@@ -62,7 +74,7 @@ p
      display: none;
 }
 .fas,.far{
-     color:#482ff7;
+     color:#7510F7;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
@@ -80,24 +92,26 @@ p
      font-size: 30px;
 }
 .hero_footer .container-fluid p{
-     width:80%;
-     line-height: 35px;
+     width:60%;
+     line-height: 40px;
 }
 
 .hero_footer .container-fluid {
-     background-color: #482ff7;
+     background-color: #7510F7;
      height: 500px;
-     color: aliceblue;
+     color:#fdfdfd;
 }
 /* Hero skill container */
 .hero-skill .container{
-     background-color:white;
-     margin-top: -150px;
+     border-radius: 10px;
+     background-color:#fdfdfd;
+     margin-top: -160px;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
      width: 90%;
 }
 .coloringword{
-     color:#482ff7;
+     color:#7510F7;
+     font-weight:bold;
 }
 .list-group{
      list-style: none;
@@ -131,7 +145,7 @@ p
           line-height: 30px;
      }
      .hero-skill .container{
-          background-color: aliceblue;
+          background-color:#fdfdfd;
           margin-top: -50px;
           border-radius:10px;
      }

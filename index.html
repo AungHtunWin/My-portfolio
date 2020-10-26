@@ -3,16 +3,23 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="I am Aung Htun Win. I am graduated from University of Technology Yatanarpon Cyber City as Electronic Engineer. I am also Web Designer and Web Developer.">
+     <meta name="keywords" content="aung htun win">
+     <meta name="robots" content="index, follow">
+     <meta name="language" content="EN">
+     <link rel="icon" href="images/icon.svg">
      <link rel="stylesheet" href="fontawesome/css/all.min.css">
      <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
      <link rel="stylesheet" href="Bootstrap/css/custom.css">
+     <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
      <title>Aung Htun Win</title>
 
 </head>
 <body>
      <!--starting navigation bar using boootstrap..come on i can do it... -->
      <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light py-2">
-          <a href="#" class="navbar-brand ml-3 ">Aung Htun Win</a>
+          <a href="#" class="navbar-brand ml-3 "><img src="images/icon.svg" style="width: 40px;"></a>
           <button class="navbar-toggler collapsed border-0" data-target="#Nav" data-toggle="collapse">
                <span class="navbar-toggler-icon"></span>
                <div class="close-icon"><i class="fas fa-times"></i></div>
@@ -28,18 +35,20 @@
      <!-- intro page -->
      <div class="hero">
           <div class="container my-3 py-5">
-               <h1 class="text-center mb-4">I am<br>Full-stack Web Developer</h1>
+               <h1 class="text-center mb-4">I am <br><a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer.","UI/UX Designer.","Freelancer." ]'>
+                    <span class="wrap"></span>
+                  </a></h1>
                <p class="text-center">I design and code beautifully in simple design and I love what I do.</p>
                <div class="text-center mt-5">
                     <img src="images/profile.jpg" alt="profileimage">
                </div>
-          </div>
+          </>
      </div>
      <!--end of intro page -->
      <!-- About Page  -->
      <div class="hero_footer">
           <div class="container-fluid">
-               <h1 class="text-center pt-5">Hi,I am AungHtunWin.Nice to meet you.</h1>
+               <h1 class="text-center pt-5 pb-3">Hi..I am Aung Htun Win. Nice to meet you.</h1>
                <p class="text-center m-auto">I graduated from University of Technology-Yatanarpon cyber city(UT_YCC) as Electronic Engineer.
                     I am very interested in web development especially in Front-end Design and UI/UX I'm quietly confident,
                     naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
@@ -48,12 +57,12 @@
      <!-- End of about Page -->
      <!-- start of skill page -->
      <div class="hero-skill">
-          <div class="container rounded ">
-               <div class="row">
+          <div class="container border">
+               <div class="row ">
                     <div class="col-lg-4 mb-4 text-center pb-5 pt-4">
                          <div class="text-center p-5"><i class="fas fa-layer-group fa-4x"></i></div>
-                         <h1>Design</h1>
-                         <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                         <h1 class="pb-4">Design</h1>
+                         <p style="line-height: 27px;">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
                          <br>
                          <p class="coloringword">Things i love Designing:</p>
                          <p>UI,UX,Web</p>
@@ -61,14 +70,15 @@
                          <p class="coloringword">Design Tools:</p>
                          <ul class="list-group">
                               <li>Figma</li>
+                              <li>Adobe XD</li>
                               <li>Pen & Paper</li>
                               <li>Sketch</li>
                          </ul>
                     </div>
                     <div class="col-lg-4 mb-4 text-center pb-5 pt-4">
                          <div class="text-center p-5"><i class="far fa-file-code fa-4x"></i></div>
-                         <h1>Front-end development</h1>
-                         <p>I love to code things from scratch and enjoy bringing ideas to life in the browser</p>
+                         <h1 class="pb-4">Front-end development</h1>
+                         <p style="line-height: 27px;">I love to code things from design scratch and enjoy bringing ideas to life in the browser.</p>
                          <br>
                          <p class="coloringword">Languages I love:</p>
                          <p>HTML,CSS</p>
@@ -82,8 +92,8 @@
                     </div>
                     <div class="col-lg-4 mb-4 text-center pb-5 pt-4">
                          <div class="text-center p-5"><i class="fas fa-cogs fa-4x"></i></div>
-                         <h1>Back-end Development</h1>
-                         <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                         <h1 class="pb-4">Back-end Development</h1>
+                         <p style="line-height: 27px;">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
                          <br>
                          <p class="coloringword">Things i love Designing:</p>
                          <p>UI,UX,Web</p>
@@ -124,7 +134,9 @@
                </div>
           </div>
      </div>
+     
      <script src="Bootstrap/js/jquery.js"></script>
      <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+     <script src="Bootstrap/js/app.js"></script>
 </body>
 </html>
