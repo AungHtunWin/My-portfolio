@@ -1,0 +1,77 @@
+@font-face{
+     font-family: jose;
+     src:url(../../fonts/TitilliumWeb-Bold.ttf)
+}
+@font-face{
+     font-family: monster;
+     src:url(../../fonts/Montserrat-Regular.ttf)
+}
+#side-menu,
+.side-menu-overlay {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	display: none
+}
+
+body.overflow-hidden {
+	overflow: hidden
+}
+
+#side-menu {
+	width: 300px;
+	right: -300px;
+	overflow-y: auto;
+	z-index: 1035;
+	background: #fff;
+	padding: 20px 30px;
+	color: #333;
+	transition: .4s
+}
+
+body.side-menu-visible #side-menu {
+	transform: translateX(-300px)
+}
+
+#side-menu .contents {
+	margin-top: 60px;
+}
+
+#side-menu .nav-link {
+     width: 60%;
+     margin: auto;
+	font-family: monster;
+     font-weight: bold;
+     font-size: 14px;
+     border:2px solid #7510F7 ;
+     border-radius: 20px;
+     color:#7510F7 ;
+}
+
+#side-menu .nav-link:hover {
+	color: white;
+     border:2px solid #7510F7 ;
+     border-radius: 20px;
+     background-color:#7510F7;
+}
+
+#side-menu .close {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.side-menu-overlay {
+	left: 0;
+	min-width: 100%;
+	background: rgba(0, 0, 0, .4);
+	z-index: 100;
+}
+
+#side-menu.side-menu-left {
+	right: auto;
+	left: -300px;
+}
+
+body.side-menu-visible #side-menu.side-menu-left {
+	transform: translateX(300px)
+}

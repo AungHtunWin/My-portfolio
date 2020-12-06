@@ -105,6 +105,10 @@ p
      height: 500px;
      color:#fdfdfd;
 }
+.hero_process{
+     margin: auto;
+     text-align: center;
+}
 /* Hero skill container */
 .hero-skill .container{
      border-radius: 10px;
