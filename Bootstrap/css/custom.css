@@ -6,9 +6,9 @@
      font-family: monster;
      src:url(../../fonts/Montserrat-Regular.ttf)
 }
-.navbar{
+/* .navbar{
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 .navbar-brand{
      font-family: jose;
      font-size: 25px;
@@ -66,7 +66,7 @@ p
      
 }
 .hero .container .contact_icon a img:hover{
-     border:2  px solid #0e153a ;
+     border:2px solid #0e153a ;
 }
 
 /* Navigation bar toggler icon modification */
@@ -87,7 +87,7 @@ p
 /* End of icon modification */
 /* Profile image */
 .hero .container img{
-     width: 180px;
+     width: 220px;
      border-radius: 50%;
 }
 /* herofooter container */
@@ -138,8 +138,8 @@ p
      text-decoration: none;
      font-family: monster;
      font-weight: bold;
-     font-size: 15px;
-     padding: 10px 10px 10px 10px;
+     font-size: 18px;
+     padding: 10px 25px 10px 25px;
      border:2px solid #7510F7 ;
      border-radius: 20px;
      color:#7510F7 ;
@@ -149,14 +149,33 @@ p
      text-decoration: none;
      font-family: monster;
      font-weight: bold;
-     font-size: 15px;
-     padding: 10px 10px 10px 10px;
+     font-size: 18px;
+     padding: 10px 15px 10px 15px;
      border:2px solid #7510F7 ;
      border-radius: 20px;
      color:#fdfdfd ;
      background-color: #7510F7;
 }
 /* End of recent project CSS */
+/* contact info */
+.container h1{
+     font-family: jose;
+     font-size: 30px;
+}
+.container .row h2{
+     font-family: jose;
+     font-size: 25px;
+}
+.container .row div p,.container .row div form{
+     font-family:monster;
+     font-size: 16px;
+}
+.contact_info{
+     border:0.5px solid #212529;
+     border-radius: 10px;
+     background-color:#fdfdfd;
+     box-shadow: 0px 4px 4px rgba(7, 23, 172, 0.25);
+}
 @media(max-width:600px){
      .hero .container h1{
           font-family: jose;
@@ -183,5 +202,11 @@ p
           margin-top: -50px;
           border-radius:10px;
      }
-
+     .hero .container img{
+          width: 120px;
+          border-radius: 50%;
+     }
+     .contact_info{
+          width: 85%;
+     }
 }

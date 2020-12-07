@@ -19,7 +19,7 @@
 </head>
 <body>
      <!--starting navigation bar using boootstrap..come on i can do it... -->
-     <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light py-2">
+     <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light pt-4">
           <a href="#" class="navbar-brand ml-3 "><img src="images/icon.svg" style="width: 50px;"></a>
           <button class="navbar-toggler collapsed border-0" data-target="#Nav" data-toggle="collapse">
                <span class="navbar-toggler-icon"></span>
@@ -28,14 +28,14 @@
           <div class="collapse navbar-collapse mt-2" id="Nav">
                <ul class="navbar-nav ml-auto text-center">
 			     <li class="nav-item mx-2 mb-3"><a href="" class="nav-link hover_bg px-3">Say Hello</a></li>
-			     <li class="nav-item mx-2 mb-2"><a href="" class="nav-link hover_bg px-3">Download CV</a></li>
+                    <li class="nav-item mx-2 mb-2"><a href="" class="nav-link hover_bg px-3">Download CV</a></li>
                </ul>
           </div>
      </nav>
      <!-- End of Navigation bar -->
      <!-- intro page -->
      <div class="hero">
-          <div class="container my-2 py-5">
+          <div class="container my-2 pb-5 pt-3">
                <h1 class="text-center mb-4">I am <br><a style="text-decoration: none;pointer-events: none;"href="" class="typewrite" data-period="2000" data-type='[ "Web Developer.","UI/UX Designer.","Freelancer." ]'>
                     <span class="wrap"></span>
                </a></h1>
@@ -89,13 +89,14 @@
                          <p style="line-height: 27px;">I love to code things from design scratch and enjoy bringing ideas to life in the browser.</p>
                          <br>
                          <p class="coloringword">Languages I love:</p>
-                         <p>HTML,CSS</p>
+                         <p>HTML,CSS,JavaScript</p>
                          <br>
                          <p class="coloringword">Dev Tools:</p>
                          <ul class="list-group">
                               <li>Github</li>
                               <li>Bootstrap</li>
                               <li>VS Code</li>
+                              <li>Vue.js</li>
                          </ul>
                     </div>
                     <div class="col-lg-4 mb-4 text-center pb-5 pt-4">
@@ -103,12 +104,12 @@
                          <h1 class="pb-4">Back-end Development</h1>
                          <p style="line-height: 27px;">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
                          <br>
-                         <p class="coloringword">Things i love Designing:</p>
-                         <p>UI,UX,Web</p>
+                         <p class="coloringword">Languages I love:</p>
+                         <p>PHP,MySQL</p>
                          <br>
-                         <p class="coloringword">Design Tools:</p>
+                         <p class="coloringword">Framework:</p>
                          <ul class="list-group">
-                              <li>Figma</li>
+                              <li>Laravel</li>
                               <li>Pen & Paper</li>
                               <li>Sketch</li>
                          </ul>
@@ -122,28 +123,65 @@
      <p class="text-center mt-3 mb-5">Here are a few projects I have worked on recently. For more detail , <a href="#">Contact me</a>.</p>
      <div class="container">
           <div class="row">
-               <div class="col-lg-4 mb-4 ">
+               <div class="col-lg-4 col-md-6 mb-4 ">
                     <img src="images/project1.jpg" alt="" class="img-fluid ">
                </div>
-               <div class="col-lg-4 mb-4">
+               <div class="col-lg-4 col-md-6 mb-4">
                     <img src="images/project2.jpg" alt="" class="img-fluid">
                </div>
-               <div class="col-lg-4 mb-4">
+               <div class="col-lg-4 col-md-6 mb-4">
                     <img src="images/project3.jpg" alt="" class="img-fluid">
                </div>
-               <div class="col-lg-4 mb-4">
+               <div class="col-lg-4 col-md-6 mb-4">
                     <img src="images/project4.jpg" alt="" class="img-fluid">
                </div>
-               <div class="col-lg-4 mb-4">
+               <div class="col-lg-4 col-md-6 mb-4">
                     <img src="images/project5.jpg" alt="" class="img-fluid">
                </div>
-               <div class="col-lg-4 mb-4">
+               <div class="col-lg-4 col-md-6 mb-4">
                     <img src="images/project6.jpg" alt="" class="img-fluid">
                </div>
           </div>
-          <div class="more_project mt-3"><a href="">See more <img src="images/icons8-more.svg" alt="" style="width: 30px;"> </a></div>
+          <div class="more_project my-5"><a href=""> Wanna see more <img src="images/icons8-more.svg" alt="" style="width: 30px;"> </a></div>
+     </div>
+<hr class="mb-5">
+<!-- contact Page -->
+<div class="container contact_info">
+     <h1 class="text-center my-5">Thanks for taking the time to reach out. <br> How can I help you today?</h1>
+     <hr>
+     <div class="row">
+          <div class="col-lg-6 col-md-6">
+               <h2>Get in Touch</h2>
+               <p>Feel free to drop me a line below!</p>
+               <form>
+                    <div class="form-row">
+                         <div class="form-group col-md-12 col-lg-6">
+                           <label for="inputName">Name</label>
+                           <input type="text" class="form-control" id="inputName" placeholder="Name">
+                         </div>
+                         <div class="form-group col-md-12 col-lg-6">
+                              <label for="inputEmail">Email</label>
+                              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                         </div>
+                    </div>
+                    <div class="form-group">
+                         <label for="inputTextarea">Description</label>
+                         <textarea class="form-control" id="inputTextarea" rows="3"></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                  </form>
+          </div>
+          <div class="col-lg-6 col-md-6 contact_me">
+               <h2 class="mb-4">Contact me</h2>
+               <div class="my-3"><img src="images/icons8-location.svg"class="d-inline"><p class="d-inline"> - Yangon</p></div>
+               <div class="my-3"><img src="images/icons8-email.svg"><p class="d-inline"> - aungtunwin538@gmail.com</p></div>
+               <div class="my-3"><img src="images/icons8-phone.svg"><p class="d-inline"> - 09772320874</p></div>
+          </div>
+          
      </div>
      
+</div>
+<!-- end of Contact Page -->
      <script src="Bootstrap/js/jquery.js"></script>
      <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
      <script src="Bootstrap/js/app.js"></script>
